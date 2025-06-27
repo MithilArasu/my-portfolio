@@ -7,13 +7,13 @@ const Contact = () => {
   return (
     <section id="contact" className="bg-gray-100 py-20 px-6 md:px-20 font-sans">
       <motion.h2
-        className="text-4xl font-semibold text-center mb-12 font-serif"
+        className="text-4xl font-semibold text-center mb-12 font-lora"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
       >
-        📬 Get in Touch
+        CONTACT
       </motion.h2>
 
       <motion.div
@@ -24,7 +24,7 @@ const Contact = () => {
         viewport={{ once: true }}
       >
         <p className="text-xl text-gray-700 mb-6 font-medium">
-          Feel free to reach out if you’d like to collaborate, have questions, or just want to say hi!
+          Feel free to reach out if you’d like to collaborate, have questions!
         </p>
         <div className="space-y-4">
           <div className="flex items-center text-gray-700">

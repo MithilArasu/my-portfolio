@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import { FaArrowLeft, FaArrowRight, FaGithub } from 'react-icons/fa';
+
+import indrover from "../assets/indrover.png";
 
 const projects = [
   {
@@ -16,7 +18,7 @@ const projects = [
     description:
       "A Raspberry Pi-based safety bot that uses AI for helmet and goggles detection and integrates with a Flutter app for alerts.",
     techStack: ["Raspberry Pi", "Python", "Flutter", "AI"],
-    image: "/images/safety-rover.jpg",
+    image: indrover,
     link: "https://github.com/yourrepo/safety-rover",
   },
   {
@@ -39,7 +41,6 @@ const projects = [
 
 const Projects = () => {
   const [startIndex, setStartIndex] = useState(0);
-
   const visibleProjects = projects.slice(startIndex, startIndex + 3);
 
   const handlePrev = () => {
@@ -54,15 +55,26 @@ const Projects = () => {
 
   return (
     <section id="projects" className="bg-gray-50 py-20 px-6 md:px-20 font-sans">
-      <motion.h2
-        className="text-4xl font-bold text-center mb-12 font-serif"
+      <motion.div
+        className="flex items-center justify-center gap-4 mb-12"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
       >
-        Projects
-      </motion.h2>
+        <h2 className="text-4xl font-bold font-poppins text-gray-800">
+          PROJECTS
+        </h2>
+        <a
+          href="https://github.com/MithilArasu"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-700 hover:text-black transition"
+          aria-label="GitHub"
+        >
+          <FaGithub size={30} />
+        </a>
+      </motion.div>
 
       <div className="relative">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
@@ -78,8 +90,10 @@ const Projects = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-48 object-cover"
+                className="w-full object-cover rounded-xl"
+                style={{ aspectRatio: "3 / 2" }}
               />
+
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-blue-600 mb-2">
                   {project.title}

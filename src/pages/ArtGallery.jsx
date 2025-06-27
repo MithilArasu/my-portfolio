@@ -88,8 +88,8 @@ const ArtGallery = () => {
   };
 
   return (
-    <section id="art" className="min-h-screen px-6 md:px-24 py-16 bg-[#fafafa] relative overflow-hidden">
-      <h1 className="text-4xl font-bold mb-12 text-center font-serif">Art Gallery</h1>
+    <section id="art" className="min-h-screen px-6 md:px-24 py-16 bg-white relative overflow-hidden">
+      <h1 className="text-4xl font-bold mb-12 text-center font-serif">ART GALLERY</h1>
 
       <div className="flex justify-between mb-6">
         <button

@@ -8,6 +8,7 @@ import ArtGallery from "./pages/ArtGallery";
 import Marathon from "./pages/Marathon";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
+import Skills from "./pages/Skills";
 
 function App() {
   return (

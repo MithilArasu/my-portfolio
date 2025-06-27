@@ -37,7 +37,7 @@ const Marathon = () => {
   return (
     <section className="bg-white py-20 px-6 md:px-20" id="marathon">
       <h2 className="text-4xl font-bold text-center mb-12 flex items-center justify-center space-x-3">
-        My Marathon Journey
+        My Marathon Journey 
         <a
           href="https://www.strava.com/athletes/74545728" // <-- Replace with your actual Strava link
           target="_blank"
@@ -45,7 +45,7 @@ const Marathon = () => {
           aria-label="Strava"
           className="text-orange-500 hover:text-orange-600"
         >
-          <FaStrava size={30} />
+          <FaStrava size={35} />
         </a>
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">

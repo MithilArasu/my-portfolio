@@ -22,7 +22,7 @@ const AboutMe = () => {
             I'm passionate about electronics, innovation, and creating impact.
           </p>
           <p className="text-gray-300 leading-relaxed">
-            As an ECE student, I love building projects that solve real-world problems. Whether I’m sketching portraits, running marathons, or coding smart systems, I bring a creative and passionate energy to everything I do. I also believe in lifelong learning and constantly work on improving my technical and artistic skills.
+            As an ECE student, I love building projects that solve real-world problems. I'm a passionate and detail-oriented developer with strong expertise in Python, C++, Java, and web development. I build full-stack applications using Flask, HTML/CSS, JavaScript, Bootstrap, and SQLite, and I have experience developing real-time, user-friendly interfaces. I'm also skilled in embedded systems and IoT development, working with platforms like Raspberry Pi and Arduino to integrate hardware with intelligent software. My interests include building scalable backend systems, developing automation tools, and exploring AI-based solutions that solve real-world problems. I enjoy taking ownership of projects from concept to deployment and continuously improving my skill set across both software and systems engineering.
           </p>
 
           {/* Skills Section */}
