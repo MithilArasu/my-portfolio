@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+
+body {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  @apply bg-gray-50 text-gray-800;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold text-gray-900;
+}
+
+a {
+  @apply text-blue-600 hover:underline;
+}
+
+section {
+  @apply py-10 px-4 md:px-20;
+}
+
+img {
+  @apply select-none;
+}
+
+/* Custom scrollbar for smooth experience */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 100, 100, 0.3);
+  border-radius: 4px;
+}
+
+/* Animation utility (if needed) */
+.fade-in {
+  @apply opacity-0 transition-opacity duration-700 ease-in;
+}
+.fade-in.visible {
+  @apply opacity-100;
+}
