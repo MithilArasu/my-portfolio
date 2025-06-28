@@ -88,21 +88,21 @@ const ArtGallery = () => {
   };
 
   return (
-    <section id="art" className="min-h-screen px-6 md:px-24 py-16 bg-white relative overflow-hidden">
+    <section id="art" className="min-h-screen px-6 md:px-24 py-16 bg-gray-100 relative overflow-hidden">
       <h1 className="text-4xl font-bold mb-12 text-center font-serif">ART GALLERY</h1>
 
       <div className="flex justify-between mb-6">
         <button
           onClick={handlePrev}
           disabled={startIndex === 0}
-          className="text-blue-600 disabled:opacity-30"
+          className="text-black disabled:opacity-30"
         >
           <FaArrowLeft size={24} />
         </button>
         <button
           onClick={handleNext}
           disabled={startIndex + 3 >= artworks.length}
-          className="text-blue-600 disabled:opacity-30"
+          className="text-vlack disabled:opacity-30"
         >
           <FaArrowRight size={24} />
         </button>

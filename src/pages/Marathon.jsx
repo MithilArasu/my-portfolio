@@ -22,6 +22,7 @@ const Marathon = () => {
       distance: "10 km",
       time: "59:30",
       pace: "5:57/km",
+      rank: "-",
       image: pr10k,
     },
     {
@@ -30,12 +31,13 @@ const Marathon = () => {
       distance: "10 km",
       time: "1:05:35",
       pace: "6:29/km",
+      rank: "-",
       image: mumbaimarathon,
     },
   ];
 
   return (
-    <section className="bg-white py-20 px-6 md:px-20" id="marathon">
+    <section className="bg-orange-50 py-20 px-6 md:px-20" id="marathon">
       <h2 className="text-4xl font-bold text-center mb-12 flex items-center justify-center space-x-3">
         My Marathon Journey 
         <a

@@ -26,20 +26,7 @@ const AboutMe = () => {
           </p>
 
           {/* Skills Section */}
-          <div className="mt-10">
-            <h2 className="text-4xl text-gray-700 font-extrabold tracking-tight relative mb-6">
-              SKILLS<span className="text-rose-500">.</span>
-              <span className="block w-16 h-1 bg-rose-500 mt-2"></span>
-            </h2>
-            <ul className="text-gray-300 space-y-3 text-lg">
-              <li><span className="font-bold">Programming Languages:</span> Python, Java, C, C++, Embedded C</li>
-              <li><span className="font-bold">Frontend Technologies:</span> HTML, CSS, JavaScript</li>
-              <li><span className="font-bold">Backend & Databases:</span> MySQL, Flask</li>
-              <li><span className="font-bold">IoT & Embedded Systems:</span> ESP32, Raspberry Pi, Arduino</li>
-              <li><span className="font-bold">EDA Software:</span> Cadence, LTspice</li>
-              <li><span className="font-bold">Soft Skills:</span> Leadership, Team Collaboration, Problem Solving</li>
-            </ul>
-          </div>
+          
         </motion.div>
 
         {/* Right Image */}
