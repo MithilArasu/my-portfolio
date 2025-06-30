@@ -3,40 +3,46 @@ import { motion } from 'framer-motion';
 import { FaArrowLeft, FaArrowRight, FaGithub } from 'react-icons/fa';
 
 import indrover from "../assets/indrover.png";
+import cadence from "../assets/cadence.png";
+import spice from "../assets/spice.png";
+import parking from "../assets/parking.png";
+
+
 
 const projects = [
-  {
-    title: "Vehicle Parking App",
-    description:
-      "A full-stack application built with Flask and SQLite, allowing users to book parking slots and admins to manage parking lots.",
-    techStack: ["Flask", "SQLite", "HTML/CSS", "Bootstrap"],
-    image: "/images/parking-app.jpg",
-    link: "https://github.com/MithilArasu/vehicle_parking_app",
-  },
   {
     title: "Industrial Safety Rover",
     description:
       "A Raspberry Pi-based safety bot that uses AI for helmet and goggles detection and integrates with a Flutter app for alerts.",
     techStack: ["Raspberry Pi", "Python", "Flutter", "AI"],
     image: indrover,
-    link: "https://github.com/yourrepo/safety-rover",
-  },
-  {
-    title: "Quiz Master",
-    description:
-      "A multi-user quiz platform with admin control built using Flask. Users can participate in quizzes with real-time scoring.",
-    techStack: ["Flask", "Jinja2", "Bootstrap", "SQLite"],
-    image: "/images/quiz-master.jpg",
-    link: "https://github.com/yourrepo/quiz-master",
+    link: "https://github.com/MithilArasu/Industrial_Safety_Rover",
   },
   {
     title: "Spice Dispenser",
     description:
       "An automated spice dispensing machine using embedded systems and mechanical design for precise cooking applications.",
     techStack: ["Arduino", "C++", "Sensors", "Motors"],
-    image: "/images/spice-dispenser.jpg",
-    link: "https://github.com/yourrepo/spice-dispenser",
+    image: spice,
   },
+  {
+    title: "7:3 Compressor using Stacking approch",
+    description:
+      "Explored performance differences between the conventional 7:3 compressor and a stacking-based implementation using Cadence Virtuoso. The goal was to analyze key metrics such as power, delay, and area, and evaluate which architecture is more efficient for high-speed arithmetic operations—crucial in applications like multipliers.",
+    techStack: ["Cadence"],
+    image: cadence,
+    
+  },
+  {
+    title: "Vehicle Parking App",
+    description:
+      "A full-stack application built with Flask and SQLite, allowing users to book parking slots and admins to manage parking lots.",
+    techStack: ["Flask", "SQLite", "HTML/CSS", "Bootstrap"],
+    image: parking,
+    link: "https://github.com/MithilArasu/parking_app",
+  },
+  
+  
 ];
 
 const Projects = () => {
